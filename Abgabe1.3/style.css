@@ -1,0 +1,10 @@
+.text{
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+}
+body{
+    background-image: url(Medien/FallenAngel.JPG);
+    background-size: 1400px 800px;
+}
+
