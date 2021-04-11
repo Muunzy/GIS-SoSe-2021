@@ -1,19 +1,80 @@
 body{
     background-image: url(Medien/FallenAngel.JPG);
     background-size: 1400px 800px;
-    
+    text-align: center;
+    margin: auto;
+    width: 800px;
 }
-main{
+ol{
+    list-style: none;
+
+}
+ul{
+    list-style: none;
+    position: fixed;
+    width: 900px;
     background-color: white;
     opacity: 70%;
+    padding: 5px;
+
+}
+p, h1, h2, h3, ol{
+    background-color: white;
+    opacity: 70%;
+    padding: 5px;
     font-family: sans-serif;
     color: black;
 }
-.Edit1 { 
-    opacity: 100%;
-    size: 2000px 1000px 1000px;
+main{
+    margin-top: 60px;
+}
 
+#navigation{
+    opacity: 70%;
+    padding: 5px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 0 ;
+}
+li a{
+    float: right;
+    color: black;
+    display:  block;
+    text-decoration: none;
+    border-right: 3px solid black;
+}
+li a:hover{ 
+    color: grey;
+}
+.Edits{
+    margin-left: auto;
+    margin-right: auto;
+}  
+.AktiveSeite {
+    Color: red;
+}
+a img  {
+    width: 100px;
+}
+.Logo :hover{
+    opacity: 60%;
+}
+#Interview {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+   
+}
+#InterviewÜberschrift{
+    font-weight: 700px;
+    color: thistle;
 
-
-
+}
+input[type = text]{
+    background-color: white;
+    opacity: 70%;
+}
+textarea{
+    background-color: white;
+    opacity: 70%;
 }
