@@ -6,10 +6,11 @@ body{
     width: 800px;
     background: repeating-linear-gradient();
 }
-/*ol{
+ol{
+    background-color: white;
+    opacity: 70%;
     list-style: none;
-
-}*/ 
+}
 ul{
     list-style: none;
     position: fixed;
