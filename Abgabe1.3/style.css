@@ -1,6 +1,4 @@
 body{
-    /*background-image: url(Medien/FallenAngel.JPG);*/
-    background-size: 1400px 800px;
     text-align: center;
     margin: auto;
     width: 800px;
@@ -9,9 +7,9 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2) 10px,
         rgba(0, 0, 0, 0.3) 10px,
-        rgba(0, 0, 0, 0.3) 20px
-      ),
-    
+        rgba(0, 0, 0, 0.3) 20px),
+        url(Medien/FallenAngel.JPG);
+        background-size: 1400px 800px;
 }
 ol{
     background-color: white;
